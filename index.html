@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Quazar S.R.L.</title>
+	<script src="js/smooth-scroll.min.js"></script>
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]', {
+	// Function. Custom easing pattern
+	// If this is set to anything other than null, will override the easing option above
+	customEasing: function (time) {
+
+		// return <your formulate with time as a multiplier>
+
+		// Example: easeInOut Quad
+		return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+
+	}
+});
+	</script>
+</head>
+<body>
+  <header class="cabeza">
+    <nav>
+       <a data-scroll="" href="#sec1">Sobre Nosotros</a>
+       <a data-scroll="" href="#sec2">Catálogo</a>
+       <a data-scroll="" href="#sec3">Contacto</a>
+   </nav>
+   <section class="textos-header">
+	   <img src="img/logo.png" alt="" class="responsive">
+       <h1>Quazar S.R.L.</h1>
+	   <h2></h2>
+	   <img src="img/impreiona.png" alt="">
+   </section>
+   <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+           style="height: 100%; width: 100%;">
+           <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+               style="stroke: none; fill: ##f3f3f3;"></path>
+       </svg></div> 
+  </header>
+	<div class="contenedor">
+
+
+    <main>
+      <section class="contenedor sobre-nosotros" id="sec1">
+            <h2 class="titulo">Sobre Nosotros</h2>
+            <div class="contenedor-sobre-nosotros" >
+                <img src="img/printer.png" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                  <h3><span>1</span>Nuestro Inicio</h3>
+                  <p>Empezamos en el mercado desde el año 2004, ofreciendo desde entonces la mejor calidad en todos los productos e insumos.</p>
+                  <h3><span>2</span>Los mejores productos</h3>
+                  <p>Somos una Empresa dedicada al Servicio de Impresión en General, realizamos diferentes Técnicas de Impresión Digital, tales como:
+                    Estampado y Sublimación. Otro de los trabajos destacados que ofrecemos son los Sellos Personalizados de alta calidad.</p>
+                    <h3><span>3</span>Trato con nuestros clientes</h3>
+                    <p>Como uno de los principales negocios locales en Encarnación le debemos nuestro buen nombre a la estrecha
+                      relación que tenemos con nuestros clientes. Creemos que todos se merecen el más alto nivel de servicio y estamos
+                      comprometidos con ofrecerles justamente eso. Para saber más, ponte en contacto con nosotros.</p>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="catalogo" id="sec2">
+          <h2 class="titulo">Catálogo de Productos</h2>
+          <form action="">
+    				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+    			</form>
+    			<div class="categorias" id="categorias">
+    				<a href="#" class="activo">Todos</a>
+					<a href="#">Tazas</a>
+					<a href="#">Materos</a>
+					<a href="#">Chopp</a>
+                    <a href="#">Hoppies</a>
+					<a href="#">Almohadas</a>
+					<a href="#">Llaveros</a>
+					<a href="#">Pines</a>
+					<a href="#">Rompecabezas</a>
+                    <a href="#">Sellos</a>
+                    <a href="#">Portaretratos</a>
+                    <a href="#">Rocas</a>
+                    <a href="#">Cerámicas</a>
+    			</div>
+        </section>
+
+    		<section class="grid" id="grid">
+    			<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas magica mugs magic"
+					 data-descripcion="Taza Mágica: la taza es de color negro, pero cuando
+					 viertes algún líquido caliente en ella, muestra el diseño/imagen que tú quieras."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug1.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+					data-categoria="tazas"
+					data-etiquetas="tazas mugs"
+					data-descripcion="Taza normal."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug2.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+					data-categoria="tazas"
+					data-etiquetas="tazas matalica mugs"
+    				data-descripcion="Taza metálica"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/Mug3.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas viajera mugs"
+    				 data-descripcion="Taza Viajera"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug4.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas magica adhesivo sticker mugs"
+					 data-descripcion="Taza Mágica con Adhesivo: la taza es de color negro cuando está fría, con el 
+					 adhesivo pegado en ella, al vertir líquido caliente en ella, muestra el diseño que tú elijas."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug5.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs"
+    				 data-descripcion="Mason Jar"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug6.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs conica silicona"
+    				 data-descripcion="Taza Cónica con Tapa de Silicona"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug7.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs vidrio glass"
+    				 data-descripcion="Taza de Vidrio."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug8.png" alt="">
+    				</div>
+    			</div>
+
+    			<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs conica"
+    				 data-descripcion="Taza Cónica"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug9.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs magica magic feliz cumpleaños happy birthday"
+    				 data-descripcion="Taza Mágica con Diseño Grabado (Happy Birthday)."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug10.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs magica magic"
+    				 data-descripcion="Taza Mágica con Diseño Grabado."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug11.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs magica magic"
+    				 data-descripcion="Taza Mágica con Diseño de Estrellas Grabado."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug12.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="tazas"
+    				 data-etiquetas="tazas mugs feliz cumpleaños happy birthday"
+    				 data-descripcion="Taza con Diseño Grabado en el interior (Feliz Cumpleaños)."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/mug/mug13.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="chopp"
+    				 data-etiquetas="choppera"
+    				 data-descripcion="Chopp de arena."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/chopp/chopp1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="hoppies"
+    				 data-etiquetas="hoppy"
+    				 data-descripcion="Hoppy aluminio plateado."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/hoppy/hoppy1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="hoppies"
+    				 data-etiquetas="hoppy termo tazas mugs thermos"
+    				 data-descripcion="Termo Taza."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/hoppy/hoppy2.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="hoppies"
+    				 data-etiquetas="hoppy"
+    				 data-descripcion="Hoppy de aluminio blanco."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/hoppy/hoppy3.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="materos"
+    				 data-etiquetas="materos magico magic"
+    				 data-descripcion="Matero mágico."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/matero/matero1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="materos"
+    				 data-etiquetas="materos"
+    				 data-descripcion="Matero."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/matero/matero2.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="almohadas"
+    				 data-etiquetas="naturaleza hojas plantas"
+    				 data-descripcion="Almohada Personalizada."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/pillow/pillow1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="almohadas"
+    				 data-etiquetas="naturaleza hojas plantas"
+    				 data-descripcion="Almohada con Lentejuelas Personalizada."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/pillow/pillow2.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="llaveros"
+    				 data-etiquetas="llaveros keychain"
+    				 data-descripcion="Llavero Personalizado."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/pin/llavero1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="pines"
+    				 data-etiquetas="pines iman magnet"
+    				 data-descripcion="Pin Imán."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/pin/pin1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="pines"
+    				 data-etiquetas="pines llavero keychain"
+    				 data-descripcion="Pin Llavero."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/pin/pin2.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="pines"
+    				 data-etiquetas="pines abridor opener"
+    				 data-descripcion="Pin Abridor."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/pin/pin3.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="pines"
+    				 data-etiquetas="pines prendedor"
+    				 data-descripcion="Pin Botón."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/pin/pin4.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="rompecabezas"
+    				 data-etiquetas="rompecabezas puzzle"
+    				 data-descripcion="Rompecabezas Personalizado, Tamaño: 21x30cm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/puzzle/puzzle1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="rocas"
+    				 data-etiquetas="rocas rock"
+					 data-descripcion="Roca Personalizada: - Tamaño: 18x13cm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/roca/rock1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="rocas"
+    				 data-etiquetas="rocas rock"
+    				 data-descripcion="Roca Personalizada: - Tamaño: 15x15cm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/roca/rock2.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals automaticos"
+    				 data-descripcion="Sello automático Printer 50: - Tamaño: 69x30mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/automaticos/sello1.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals automaticos"
+    				 data-descripcion="Sello automático Printer 30: - Tamaño: 47x18mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/automaticos/sello2.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals automaticos"
+    				 data-descripcion="Sello automático Printer 20: - Tamaño: 38x14mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/automaticos/sello3.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals automaticos"
+    				 data-descripcion="Sello automático R 40: - Tamaño: 40mm. de diámetro"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/automaticos/sello4.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals automaticos"
+    				 data-descripcion="Sello automático Oval 55: - Tamaño: 35x55mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/automaticos/sello5.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals comunes common"
+    				 data-descripcion="Sello común: - Tamaño: 25mm. de diámetro"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/comunes/sello6.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals comunes common ovalo oval"
+    				 data-descripcion="Sello común: - Tamaño: 45x35mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/comunes/sello7.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals comunes common"
+    				 data-descripcion="Sello común: - Tamaño: de 32 y 40mm. de diámetro"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/comunes/sello8.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals comunes common"
+    				 data-descripcion="Sello común: - Tamaño: mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/comunes/sello9.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals comunes common"
+    				 data-descripcion="Sello común: - Tamaño: 60x15mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/comunes/sello10.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals comunes common"
+    				 data-descripcion="Sello común: - Tamaño: 55x15mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/comunes/sello11.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals fechero date"
+    				 data-descripcion="Sello Fechero: - Tamaño: 50mm. de diámetro"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/fecheros/sello12.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals fechero date"
+    				 data-descripcion="Sello Fechero: - Tamaño: 60x40mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/fecheros/sello13.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals mouse"
+    				 data-descripcion="Sello Mouse (Stamp Mouse R30): - Tamaño: 30/40mm. de diámetro"
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/mouse/sello14.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals mouse"
+    				 data-descripcion="Sello Mouse (Stamp Mouse 20/30): - Tamaño: 38x14mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/mouse/sello15.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals bolsillo pocket"
+    				 data-descripcion="Sello para Bolsillo (Pocket Stamp Plus 20): - Tamaño: 38x14mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/de bolsillo/sello16.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals bolsillo pocket"
+    				 data-descripcion="Sello para Bolsillo (Pocket Stamp 20): - Tamaño: 38x12mm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/de bolsillo/sello17.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals almohadilla pad"
+    				 data-descripcion="Almohadilla para sello: - Color: negro, azul."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/almohadilla/almohadilla.png" alt="">
+    				</div>
+				</div>
+				
+				<div class="item"
+    				 data-categoria="sellos"
+    				 data-etiquetas="sellos stamp seals tinta ink"
+    				 data-descripcion="Tinta para sello: - Color: negro, azul."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/sellos/tinta/tinta.png" alt="">
+    				</div>
+				</div>
+				
+				<div class="item"
+    				 data-categoria="portaretratos"
+    				 data-etiquetas="portaretratos portrait door"
+    				 data-descripcion="Portaretrato de vidrio personalizado."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/portaretrato/portaretrato.png" alt="">
+    				</div>
+				</div>
+
+				<div class="item"
+    				 data-categoria="cerámicas"
+    				 data-etiquetas="ceramicas ceramics"
+    				 data-descripcion="Cerámica personalizada: Tamaño: 15x15cm."
+    			>
+    				<div class="item-contenido">
+    					<img src="img/ceramica/ceramica.png" alt="">
+    				</div>
+				</div>
+    		</section>
+
+    		<section class="overlay" id="overlay">
+    			<div class="contenedor-img">
+    				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+    				<img src="" alt="">
+    			</div>
+    			<p class="descripcion"></p>
+    		</section>
+
+
+    </main>
+
+
+
+
+		<footer class="contenedor" id="sec3">
+			<h2 class="titulo">Dirección:</h2>
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1490.2019177359107!2d-55.86669978459233!3d-27.33454236739975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9b7722f9cfbef6d1!2sQuazar%20S.R.L!5e0!3m2!1ses-419!2spy!4v1588012655391!5m2!1ses-419!2spy" 
+			width="900" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="https://api.whatsapp.com/send?phone=595975649035&text=&source=&data=&app_absent=" target="_blank" class="whatsapp">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.facebook.com/quazar.impresion" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://instagram.com/quazar.impresion?igshid=leryxj8xdwy4" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>&copy2020 Todos los derechos reservados - |Quazar S.R.L.|</p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
